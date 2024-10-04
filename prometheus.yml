@@ -20,7 +20,7 @@ scrape_configs:
 
   - job_name: 'fastapi'
     static_configs:
-      - targets: ['localhost:8000'] 
+      - targets: ['sensey-crew-agents.railway.internal'] 
   - job_name: 'worker'
     static_configs:
-      - targets: ['localhost:8001']  
+      - targets: ['sensey-crew-agents.railway.internal']  
